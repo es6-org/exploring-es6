@@ -119,7 +119,7 @@
         * 11.7 编码风格小建议
         * 11.8 扩展运算符（...）
 * III 模块化
-    * 12 ECMAScript 6 中的可调用实体
+    * 12 [ECMAScript 6 中的可调用实体](./12.md)
         * 12.1 ECMAScript 6 中的可调用实体
         * 12.2 风格思考（ Thoughts on style ）
         * 12.3 ECMAScript 5 和 6 中的方法传递和直接调用（ Dispatched and direct method calls in ECMAScript 5 and 6 ）
