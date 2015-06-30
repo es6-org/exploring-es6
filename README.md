@@ -119,10 +119,10 @@
         * 11.7 [编码风格小建议](./11.7.md)
         * 11.8 [扩展操作符（...）](./11.8.md)
 * III 模块化
-    * 12 ECMAScript 6 中的可调用实体
-        * 12.1 ECMAScript 6 中的可调用实体
-        * 12.2 风格思考（ Thoughts on style ）
-        * 12.3 ECMAScript 5 和 6 中的方法传递和直接调用（ Dispatched and direct method calls in ECMAScript 5 and 6 ）
+    * 12 [ECMAScript 6 中的可调用实体](./12.md)
+        * 12.1 [ECMAScript 6 中的可调用实体](./12.1.md)
+        * 12.2 [风格思考](./12.2.md)
+        * 12.3 [ECMAScript 5 和 6 中的传递方法调用消息和直接调用方法](./12.3.md)
     * 13 箭头函数
         * 13.1 概览
         * 13.2 传统的函数都是糟糕的非方法的函数
