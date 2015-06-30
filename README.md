@@ -123,7 +123,7 @@
         * 12.1 ECMAScript 6 中的可调用实体
         * 12.2 风格思考（ Thoughts on style ）
         * 12.3 ECMAScript 5 和 6 中的方法传递和直接调用（ Dispatched and direct method calls in ECMAScript 5 and 6 ）
-    * 13 箭头函数
+    * 13 [箭头函数](./13.md)
         * 13.1 概览
         * 13.2 传统的函数都是糟糕的非方法的函数
         * 13.3 箭头函数语法
