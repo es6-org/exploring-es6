@@ -124,8 +124,8 @@
         * 12.2 风格思考（ Thoughts on style ）
         * 12.3 ECMAScript 5 和 6 中的方法传递和直接调用（ Dispatched and direct method calls in ECMAScript 5 and 6 ）
     * 13 [箭头函数](./13.md)
-        * 13.1 概览
-        * 13.2 传统的函数都是糟糕的非方法的函数
+        * 13.1 [概览](./13.1.md)
+        * 13.2 [因为 `this` ，传统的函数都是糟糕的非方法函数](./13.2.md)
         * 13.3 箭头函数语法
         * 13.4 词法变量
         * 13.5 语法陷阱
