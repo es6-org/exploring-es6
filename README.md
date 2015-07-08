@@ -218,3 +218,7 @@
         * 27.6 参考：代理 API
         * 27.8 深入阅读
     * 28 ECMAScript 6 的编码风格
+
+# 《 Exploring ES6 》原书的 changelog 地址：
+
+[http://exploringjs.com/CHANGELOG.txt](http://exploringjs.com/CHANGELOG.txt)
