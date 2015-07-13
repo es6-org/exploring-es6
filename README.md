@@ -198,7 +198,7 @@
         * 24.7 [组合](./24.7.md)
         * 24.8 [Promise 总是异步的](./24.8.md)
         * 24.9 [备忘单： ECMAScript 6 Promise API](./24.9.md)
-        * 24.10 Promise 的优缺点
+        * 24.10 [Promise 的优缺点](./24.10.md)
         * 24.11 Promise 和生成器
         * 24.12 调试 Promise
         * 24.13 Promise 内部
