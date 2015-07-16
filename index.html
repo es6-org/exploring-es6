@@ -3,8 +3,10 @@
 <head>
     <title>探索 ES6</title>
     <link rel="stylesheet" type="text/css" href="./css/github-markdown.css">
+    <link rel="stylesheet" type="text/css" href="./js/highlight/default.min.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <script src="./js/kramed.min.js"></script>
+    <script src="./js/marked.min.js"></script>
+    <script src="./js/highlight/highlight.min.js"></script>
     <script src="./js/jquery-2.1.4.min.js"></script>
 </head>
 <body class="markdown-body">
@@ -15,13 +17,21 @@
     <div class="index"></div>
     <div class="content"></div>
     <script>
+    marked.setOptions({
+        highlight: function (code) {
+            return hljs.highlightAuto(code).value;
+        }
+    });
+
     renderIndex();
 
     function renderIndex() {
         $.get('./index.md')
             .done(function (data) {
-                $('.index').html(kramed(data));
-                bindIndexEvents();
+                marked(data, function (err, content) {
+                    $('.index').html(content);
+                    bindIndexEvents();
+                });
             });
     }
 
@@ -35,8 +45,10 @@
 
             addLoadingLayer();
             $.get(event.target.href).done(function (data) {
-                $('.content').html(kramed(data));
-                removeLayer();
+                marked(data, function (err, content) {
+                    $('.content').html(content);
+                    removeLayer();
+                });
             });
         });
     }
