@@ -10,6 +10,10 @@ html, body {
     width: 360px;
     overflow-x: auto;
     background: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 .index a.current {
     color: red;
@@ -19,6 +23,7 @@ html, body {
     left: 375px;
     right: 0;
     top: 0;
+    bottom: 0;
     overflow-y: auto;
 }
 

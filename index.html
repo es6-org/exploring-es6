@@ -32,19 +32,9 @@
             addLoadingLayer();
             $.get(event.target.href).done(function (data) {
                 $('.content').html(kramed(data));
-                positionContent();
                 removeLayer();
             });
         });
-
-        $(window).on('scroll', positionContent);
-    }
-
-    function positionContent() {
-        $('.content').css({
-            height: $(window).height(),
-            top: $(window).scrollTop()
-        }).scrollTop(0);
     }
 
     function addLoadingLayer() {
