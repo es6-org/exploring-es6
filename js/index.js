@@ -7,18 +7,21 @@ function init() {
         }
     });
 
-    renderIndex();
-    getContent(window.location.hash);
+    renderIndex().then(function () {
+        toIndex(window.location.hash);
+    });
 }
 
 function renderIndex() {
-    $.get('./index.md')
-        .done(function (data) {
-            marked(data, function (err, content) {
-                $('.index').html(content);
-                bindIndexEvents();
-            });
+    return $.ajax({
+        url: './index.md',
+        async: true
+    }).then(function (data) {
+        marked(data, function (err, content) {
+            $('.index').html(content);
+            bindIndexEvents();
         });
+    });
 }
 
 function bindIndexEvents() {
@@ -27,12 +30,25 @@ function bindIndexEvents() {
         event.stopPropagation();
 
         window.location.hash = $(event.target).attr('href');
-
-        $('.index a.current').removeClass('current');
-        $(event.target).addClass('current');
-
-        getContent(window.location.hash);
+        toIndex(window.location.hash);
     });
+}
+
+function toIndex(hash) {
+    hash = hash.replace(/^#/, '');
+    var $curLink = $('.index a[href="' + hash + '"]');
+    if (!$curLink.length) {
+        return;
+    }
+
+    $('.index a.current').removeClass('current');
+    $curLink.addClass('current');
+
+    if ($curLink[0].scrollIntoView) {
+        $curLink[0].scrollIntoView();
+    }
+
+    getContent(hash);
 }
 
 function getContent(mdUrl) {
@@ -40,7 +56,10 @@ function getContent(mdUrl) {
         return;
     }
     addLoadingLayer();
-    $.get(mdUrl).done(function (data) {
+    $.ajax({
+        url: mdUrl,
+        async: true
+    }).done(function (data) {
         marked(data, function (err, content) {
             $('.content').html(content);
             removeLayer();
