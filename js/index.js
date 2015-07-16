@@ -8,7 +8,7 @@ function init() {
     });
 
     renderIndex().then(function () {
-        toIndex(window.location.hash);
+        toIndex(window.location.hash, true);
     });
 }
 
@@ -34,7 +34,7 @@ function bindIndexEvents() {
     });
 }
 
-function toIndex(hash) {
+function toIndex(hash, isInit) {
     hash = hash.replace(/^#/, '');
     var $curLink = $('.index a[href="' + hash + '"]');
     if (!$curLink.length) {
@@ -44,7 +44,7 @@ function toIndex(hash) {
     $('.index a.current').removeClass('current');
     $curLink.addClass('current');
 
-    if ($curLink[0].scrollIntoView) {
+    if ($curLink[0].scrollIntoView && isInit) {
         $curLink[0].scrollIntoView();
     }
 
