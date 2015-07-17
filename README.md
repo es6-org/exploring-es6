@@ -9,7 +9,7 @@
 
 # 目录
 
-[点此处](./index.md)。
+[点此处](./md/index.md)。
 
 # 《 Exploring ES6 》原书的 changelog 地址：
 
