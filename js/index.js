@@ -14,7 +14,7 @@ function init() {
 
 function renderIndex() {
     return $.ajax({
-        url: './index.md',
+        url: './md/index.md',
         async: true
     }).then(function (data) {
         marked(data, function (err, content) {
@@ -57,7 +57,7 @@ function getContent(mdUrl) {
     }
     addLoadingLayer();
     $.ajax({
-        url: mdUrl,
+        url: './md/' + mdUrl.replace(/^\.\//, ''),
         async: true
     }).done(function (data) {
         marked(data, function (err, content) {
