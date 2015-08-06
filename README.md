@@ -15,8 +15,6 @@
 
 > 即使官方名称已经修改为 ECMAScript 2015，这本书也将保持 ECMAScript 6 的称呼——因为现在大家都知道这个版本
 
-由 Axel Rauschmayer 博士编著的 《探索 ES6 》 是对JavaScript最新特性的一次深入探讨
-
 ## 如何加入翻译
 
 1. fork 项目；
