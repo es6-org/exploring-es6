@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.markdown-body {
+    height: 100%;
+}
+.index {
+    width: 360px;
+    overflow-x: auto;
+    background: #eee;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+}
+.index a.current {
+    color: red;
+}
+.content {
+    position: absolute;
+    left: 375px;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.layer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.layer .cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    background: #000;
+}
+.layer .tip {
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 100%;
+}
+
+.head {
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.book-name {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.project-location {
+    float: right;
+    font-weight: bold;
+    font-size: 30px;
+}
