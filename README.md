@@ -1,4 +1,4 @@
-# 探索 ES6：升级至JavaScript的下一个版本
+# 探索 ES6：升级至 JavaScript 的下一个版本
 
 一本对 JavaScript 最新特性深入探讨的书籍，是 ECMAScript 2015 中新引入特性的一份全面指南。
 
