@@ -1,4 +1,4 @@
-# 探索 ES6：升级至 JavaScript 的下一个版本
+# 探索 ES6：升级至JavaScript的下一个版本
 
 一本对 JavaScript 最新特性深入探讨的书籍，是 ECMAScript 2015 中新引入特性的一份全面指南。
 
@@ -13,7 +13,7 @@
 * 本书提供免费在线版本。
 * Exploring ES6 是一本持续完善的书籍。
 
-> 即使官方名称已经修改为 ECMAScript 2015，这本书也将保持 ECMAScript 6 的称呼——因为现在大家都知道这个版本。
+> 即使官方名称已经修改为 ECMAScript 2015，这本书也将保持 ECMAScript 6 的称呼——因为现在大家都知道这个版本
 
 ## 如何加入翻译
 
