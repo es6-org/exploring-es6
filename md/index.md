@@ -9,8 +9,8 @@
 * 感谢
 
 * I 背景
-    * 1 关于 ECMAScript 6 （ ES6 ）
-        * 1.1 TC39 （ Ecma 技术委员会 39 ）
+    * 1 [关于 ECMAScript 6 （ ES6 ）](./1.md)
+        * 1.1 [TC39 （ Ecma 技术委员会 39 ）](./1.1.md)
         * 1.2 ECMAScript 6 是如何设计的
         * 1.3 JavaScript vs ECMAScript
         * 1.4 升级到 ES6
