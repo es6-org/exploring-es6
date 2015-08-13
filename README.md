@@ -10,8 +10,6 @@
 
 * 包含 ECMAScript 6（也被称为 ECMAScript 2015 ）可靠及深入的信息。
 * 本书面向已经了解 JavaScript 的读者。
-* 本书提供免费在线版本。
-* Exploring ES6 是一本持续完善的书籍。
 
 > 即使官方名称已经修改为 ECMAScript 2015，这本书也将保持 ECMAScript 6 的称呼——该称呼已广为人知。
 
