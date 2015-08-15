@@ -19,8 +19,8 @@
         * 1.7 [ECMAScript 简史](./1.7.md)
     * 2 [ECMAScript 6 常见问题解答](./2.md)
         * 2.1 [当前引擎支持 ES6 情况如何？](./2.1.md)
-        * 2.2 如何将 ECMAScript 5 代码迁移至 ECMAScript 6 ？
-        * 2.3 现在学习 ECMAScript 5 还有必要吗？
+        * 2.2 [如何将 ECMAScript 5 代码升级至 ECMAScript 6 ？](./2.2.md)
+        * 2.3 [现在学习 ECMAScript 5 还有意义吗？](./2.3.md)
         * 2.4 ES6 臃肿吗？
         * 2.5 ES6 规范文档不是很大吗？
         * 2.6 ES6 包含了数组吗？
