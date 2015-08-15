@@ -14,7 +14,7 @@
         * 1.2 [ECMAScript 6 是如何设计的](./1.2.md)
         * 1.3 [JavaScript vs ECMAScript](./1.3.md)
         * 1.4 [升级到 ES6](./1.4.md)
-        * 1.5 ES6 的目标
+        * 1.5 [ES6 的目标](./1.5.md)
         * 1.6 ES6 特性概览
         * 1.7 ECMAScript 历史简介
     * 2 ECMAScript 6 常见问题解答
