@@ -16,7 +16,7 @@
         * 1.4 [升级到 ES6](./1.4.md)
         * 1.5 [ES6 的目标](./1.5.md)
         * 1.6 [ES6 特性概览](./1.6.md)
-        * 1.7 ECMAScript 历史简介
+        * 1.7 [ECMAScript 简史](./1.7.md)
     * 2 ECMAScript 6 常见问题解答
         * 2.1 当前引擎支持 ES6 的程度是多少？
         * 2.2 如何将 ECMAScript 5 代码迁移至 ECMAScript 6 ？
