@@ -29,7 +29,7 @@
         * 2.9 [ES6 有`特性`（ traits ）或者`混入`（ mixins ）吗？](./2.9.md)
         * 2.10 [为什么 ES6 有带 `=>` 的箭头函数，而没有带 `->` 的箭头函数？](./2.10.md)
         * 2.11 [在哪里可以找到更多的 ES6 资源？](./2.11.md)
-    * 3 One JavaScript: avoiding versioning in ECMAScript 6
+    * 3 [一个 JavaScript ： 在 ECMAScript 6 中避免版本化](./3.md)
         * 3.1 版本
         * 3.2 严格模式与 ECMAScript 6
         * 3.3 结论
