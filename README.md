@@ -2,6 +2,16 @@
 
 一本对 JavaScript 最新特性深入探讨的书籍，是 ECMAScript 2015 中新引入特性的一份全面指南。
 
+# 为什么要翻译这本书？
+
+很多人说，阮老师已经有一本关于 ES6 的书了 - [《ECMAScript 6 入门》](http://es6.ruanyifeng.com/)，觉得看看这本书就足够了。
+
+阮老师的那本书确实不错，值得 ES6 初学者去阅读。但是阮老师对这本书的定位是“中级难度”，也就是说书中不会很深入地去剖析各个知识点，而《 Exploring ES6 》这本书就努力在向大家细致地深入地讲解 ES6 的方方面面，这也是我觉得这本书很不错的原因。
+
+此外，《 Exploring ES6 》的作者对 JavaScript 有比较少深入全面的了解，也出了一本 ES5 及之前版本的书[《 Speaking JavaScript: An In-Depth Guide for Programmers 》](http://speakingjs.com/)。
+
+所以，总的来说，《 Exploring ES6 》还是值得一看的。
+
 ## 目录
 
 [点此处](./md/index.md)。
