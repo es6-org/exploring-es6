@@ -31,7 +31,7 @@
         * 2.11 [在哪里可以找到更多的 ES6 资源？](./2.11.md)
     * 3 [一个 JavaScript ： 在 ECMAScript 6 中避免版本化](./3.md)
         * 3.1 [版本化](./3.1.md)
-        * 3.2 严格模式与 ECMAScript 6
+        * 3.2 [严格模式与 ECMAScript 6](./3.2.md)
         * 3.3 结论
         * 3.4 深入阅读
     * 4 进入 ECMAScript 6 开发
