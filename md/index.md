@@ -34,8 +34,8 @@
         * 3.2 [严格模式与 ECMAScript 6](./3.2.md)
         * 3.3 [结语](./3.3.md)
         * 3.4 [深入阅读](./3.4.md)
-    * 4 进入 ECMAScript 6 开发
-        * 4.1 现在就使用 ECMAScript 6
+    * 4 [进入 ECMAScript 6 的第一步](./4.md)
+        * 4.1 [尝试 ECMAScript 6](./4.1.md)
         * 4.2 转换工具
         * 4.3 其他有用的 ES6 工具和库
         * 4.4 ES6 交互式解释器（ REPLs ）
