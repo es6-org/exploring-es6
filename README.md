@@ -40,6 +40,6 @@
 
 如果您觉得本翻译对您有帮助，并且愿意在金钱上给予翻译者鼓励，以间接的方式推进本书的翻译和校对，请扫一扫下面的支付宝二维码：
 
-![](https://raw.githubusercontent.com/es6-org/exploring-es6/master/imgs/15.jpg)
+![](https://raw.githubusercontent.com/es6-org/exploring-es6/master/imgs/15.png)
 
 如果您觉得本翻译很垃圾，请在 issue 中提出来，或者直接提交 pull request ，对于您的批评和贡献，我们将不胜感激！
