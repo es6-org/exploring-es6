@@ -61,11 +61,11 @@
         * 6.7 [重复字符串](./6/6.7.md)
         * 6.8 [用正则表达式作为参数的字符串方法](./6/6.8.md)
         * 6.9 [备忘：新的字符串方法](./6/6.9.md)
-    * 7 Symbols
-        * 7.1 概览
-        * 7.2 新的原始类型
-        * 7.3 使用 Symbols 来实现一些概念
-        * 7.4 Symbol 作为属性的键
+    * 7 [Symbol](./7/7.md)
+        * 7.1 [概览](./7/7.1.md)
+        * 7.2 [新的原始类型](./7/7.2.md)
+        * 7.3 [使用 Symbol 来表达一些概念](./7/7.3.md)
+        * 7.4 [Symbol 作为属性键](./7/7.4.md)
         * 7.5 使用 Symbol 跨领域（ Crossing realms with symbols ）
         * 7.6 Symbol 包装器对象（ Wrapper objects for symbols ）
         * 7.7 转换 Symbol 为其他原始类型
