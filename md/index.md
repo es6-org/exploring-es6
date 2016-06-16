@@ -67,8 +67,8 @@
         * 7.3 [使用 Symbol 来表达一些概念](./7/7.3.md)
         * 7.4 [Symbol 作为属性键](./7/7.4.md)
         * 7.5 [Symbol 转换成其他原始类型](./7/7.5.md)
-        * 7.6 Symbol 包装器对象（ Wrapper objects for symbols ）
-        * 7.7 转换 Symbol 为其他原始类型
+        * 7.6 [JSON 与 Symbol](./7/7.6.md)
+        * 7.7 [Symbol 包装对象](./7/7.7.md)
         * 7.8 JSON 与 Symbol
         * 7.9 常见问题
         * 7.10 Symbol API
